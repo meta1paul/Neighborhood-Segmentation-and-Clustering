@@ -1,8 +1,10 @@
 # Neighborhood-Segmentation-and-Clustering
 For this assignment, you will be required to explore and cluster the neighborhoods in Toronto.
 
-________________________________________________________________________________________________________________________________Part 1
-________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
+
+Part 1
+_______________________________________________________________________________________________________________________________
 
 1. Start by creating a new Notebook for this assignment.
 2. Use the Notebook to build the code to scrape the following Wikipedia page, https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M, in order to obtain the data that is in the table of postal codes and to transform the data into a pandas dataframe like the one shown below:
@@ -29,9 +31,10 @@ The package is so popular that there is a plethora of tutorials and examples of 
 
 Use the BeautifulSoup package or any other way you are comfortable with to transform the data in the table on the Wikipedia page into the above pandas dataframe.
 
-________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
+
 Part 2
-________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
 
 Now that you have built a dataframe of the postal code of each neighborhood along with the borough name and neighborhood name, in order to utilize the Foursquare location data, we need to get the latitude and the longitude coordinates of each neighborhood.
 
@@ -47,9 +50,10 @@ Important Note: There is a limit on how many times you can call geocoder.google 
 
 Once you are able to create the above dataframe, submit a link to the new Notebook on your Github repository. (2 marks)
 
-________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
+
 Part 3
-________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
 
 Explore and cluster the neighborhoods in Toronto. You can decide to work with only boroughs that contain the word Toronto and then replicate the same analysis we did to the New York City data. It is up to you.
 
